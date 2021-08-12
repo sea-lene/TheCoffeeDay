@@ -1,0 +1,391 @@
+body
+{
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+}
+.container-fluid
+{
+	padding: 0px;
+	margin: 0px;
+}
+.navbar{
+	margin-right: 0px;
+	 
+
+}
+
+.nav-link{
+	font-size: 20px;
+	color:white;
+}
+
+.nav-link:hover{
+
+	color:pink;
+	
+}
+.nav-link:active
+{
+	background-color: indigo;
+}
+.nav_bg
+{
+	background-color: lightslategrey;	
+}
+
+.header
+{
+	width: 100%;
+	height:auto;
+	background-image: url("Hom.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.header_text
+{
+	padding-top: 70px;
+	font-size: 80px;
+	color:white;
+	text-shadow: 10px 10px 5px black;
+	font-family:Kunstler Script;
+}
+
+.logo
+{
+	font-size: 20px;
+	color:black;
+	text-shadow: 2px 2px 1px white;
+	line-height: 20px;
+	font-family: Vivaldi;
+}
+
+.text
+{
+	color:white;
+	font-family: Kunstler Script;
+	text-shadow: 2px 2px 5px yellow;
+	font-size: 50px;
+}
+
+.menu_btn
+{
+	color:black;
+	font-size:20px;
+	font-family: Century Gothic;
+	background-color: white;
+	border: 2px solid pink;
+	box-shadow: 10px 10px 20px pink;
+	padding:10px 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.menu_btn:hover
+{
+	background-color: hotpink;
+	color:white;
+
+}
+.menu_bg
+{
+	border:2px solid grey;
+	background-color: white;
+	background-attachment: fixed;
+}
+
+
+
+
+.logo-img
+{
+	width:50px;
+	height:50px;
+	margin-bottom: 20px;
+}
+
+
+.menu-option_btn
+{
+	color:deeppink;
+	font-size: 30px;
+	margin-right: 250px;
+	font-family: Century Gothic;
+}
+
+.menu-1
+{
+	width:200px;
+	height: 200px;
+	margin-top: 20px;
+	border:2px solid grey;
+	box-shadow: 10px 10px 20px grey;
+	font-family: Century Gothic;
+	margin-bottom: 30px;	
+	background-color: white;
+}
+
+.seemore
+{
+	color:black;
+	font-size:20px;
+	font-family: Century Gothic;
+	background-color: white;
+	border: 2px solid deeppink;
+	box-shadow: 10px 10px 20px pink;
+	padding:10px 20px;
+	margin-top: 20px;
+}
+
+.seemore:hover
+{
+	background-color: hotpink;
+	color:white;
+}
+
+.menu_text
+{
+	font-family:Kunstler Script;
+	font-size: 50px;
+	color:deeppink; 
+	margin: auto;
+	display: block;
+}
+
+.menu_pnl{
+	background-color: rgb(238,238,238);
+}
+
+.menu_pnl:hover
+{
+	background-color: indigo;
+	color:white;
+	box-shadow: 10px 10px 20px white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.form_bg
+{
+	width: 100%;
+	height:auto;
+	background-image: url("Table_.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 20px;
+}
+label
+{
+
+	font-size: 20px;
+	font-family: Century Gothic;
+	color:indigo;
+	font-weight: bold;
+}
+
+input,textarea
+{
+	background-color: rgb(255,223,234);
+	width:85%;
+	font-size:20px;
+	border:2px solid deeppink;
+	border-radius: 10px;
+
+}
+
+.FormHeading
+{
+	font-size: 30px;
+	font-family: Century Gothic;
+	color: deeppink;
+}
+
+.submit_
+{
+	color:black;
+	font-size:20px;
+	font-family: Century Gothic;
+	background-color: white;
+	border: 2px solid deeppink;
+	box-shadow: 10px 10px 20px hotpink;
+	padding:10px 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.submit_:hover
+{
+	background-color: hotpink;
+	color:white;
+}
+
+
+.about
+{
+	width:100%;
+	height: auto;
+	background-image:url("abo3.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	align-items: center;
+	background-attachment: fixed;
+}
+
+.alert
+{
+	background-color: white;
+	color:red; 
+	margin-top: 10px;
+	width: 85%;
+	padding:3px;
+	margin-bottom: 0px;
+}
+
+
+.submit_[disabled]
+{
+	background-color: lightgrey;
+}
+
+
+.AboutHeading
+{
+	font-size: 50px;
+	font-family: Lucida Sans;
+	color: indigo;
+}
+
+.AboutContent
+{
+	font-size: 20px;
+	font-family: Century Gothic;
+	color: white;
+}
+.about-box1
+{
+	padding: 30px;
+	margin: 30px;
+	box-shadow: 20px 20px 30px black;
+	background-color: lightgrey;
+}
+
+.about-box2
+{
+	background-color: grey;
+	padding: 20px;
+}
+
+
+
+
+
+
+.Con-Heading
+{
+	font-size: 50px;
+	font-family: Lucida Sans;
+	color: white;
+}
+
+.Con-Content
+{
+	font-size: 20px;
+	font-family: Century Gothic;
+	color: white;
+}
+
+.Con-box
+{
+	
+	padding:20px;
+	background-color: indigo;
+	box-shadow: 10px 10px 30px black;
+}
+
+
+
+.con-bg
+{
+	background-color: lightslategrey;	
+}
+
+
+@media screen and (max-width:350px)
+{
+	.header_text
+	{
+		padding-top: 20px;
+		font-size: 70px;
+	}
+	.nav-link{
+		font-size: 15px;
+	
+	}
+	.about
+	{
+		height: auto;
+	}
+
+}
+
+
+@media screen and (min-height: 1000px)
+{
+	.header_text
+	{
+		padding-top: 100px;
+		font-size: 150px;
+	}
+	.nav-link{
+	font-size: 25px;
+	
+	}
+
+}
+
+@media screen and (min-width: 1000px)
+{
+	.header_text
+	{
+		padding-top: 200px;
+		font-size: 150px;
+	}
+	.nav-link{
+	font-size: 30px;
+	
+	}
+	.text
+	{
+		font-size: 80px;
+	}
+
+}
+
+@media screen and (min-width: 1200px)
+{
+	.header_text
+	{
+		padding-top: 50px;
+		font-size: 150px;
+	}
+	.nav-link{
+	font-size: 20px;
+	
+	}
+
+}

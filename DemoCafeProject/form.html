@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<script src="jquery-3.4.1.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+	<script src="MainPage.js"></script>
+	<link rel="stylesheet" type="text/css" href="MainPage.css">
+
+
+</head>
+<body>
+
+	<div class="container-fluid form_bg " style="padding: 0px;">
+
+
+		<div class="container text-center">
+			<span class="FormHeading">Reserve a table and ask for special services</span>
+		</div>
+
+			<div class="container" style="padding-left:40px;margin-left: 7px">
+
+				<div class="row">
+					
+					<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-9 mt-5">
+						<form action="auth/reservation" method="POST">
+
+							<div class="form-group form-inline row">
+								
+								<div class="col-md-4 col-lg-4 col-xl-4">
+								<label for="name">Name:</label>
+								</div>
+
+								<div class="col-md-8 col-lg-8 col-xl-8">
+								<input type="text" name="name" id="name">
+								</div>
+
+							</div>
+							
+							<div class="form-group form-inline row">
+								
+								<div class="col-md-4 col-lg-4 col-xl-4">
+								<label for="phonenumber" >PhoneNumber:</label>
+								</div>
+
+								<div class="col-md-8 col-lg-8 col-xl-8">
+								<input type="text" name="phonenumber" id="phonenumber">
+								</div>
+							</div>
+
+							<div class="form-group form-inline row">
+								
+								<div class="col-md-4 col-lg-4 col-xl-4">
+								<label for="email" >Email:</label>
+								</div>
+
+								<div class="col-md-8 col-lg-8 col-xl-8">
+								<input type="email" name="email" id="email">
+								</div>
+							</div>
+
+							<div class="form-group form-inline row">
+								
+								<div class="col-md-4 col-lg-4 col-xl-4">
+								<label for="date" >Date:</label>
+								</div>
+								
+								<div class="col-md-8 col-lg-8 col-xl-8">
+								<input type="text" name="date" id="date">
+							 	</div>
+
+							</div>
+
+							<div class="form-group form-inline row">
+								
+								<div class="col-md-4 col-lg-4 col-xl-4">
+								<label for="time" >Time:</label>
+								</div>	
+								
+								<div class="col-md-8 col-lg-8 col-xl-8">
+								<input type="text" name="time" id="time">
+								</div>
+
+							</div>
+
+							<div class="form-group form-inline row">
+								
+								<div class="col-md-4 col-lg-4 col-xl-4">
+								<label for="people" >How many people?:</label>
+								</div>
+
+								<div class="col-md-8 col-lg-8 col-xl-8">
+								<input type="text" name="people" id="people">
+								</div>
+							</div>
+
+							<div class="form-group form-inline row">
+								
+								<div class="col-md-4 col-lg-4 col-xl-4">
+								<label for="comment" >Any special requirements?:</label>
+								</div>
+								
+								<div class="col-md-8 col-lg-8 col-xl-8">
+								<textarea type="textarea" name="comment" id="comment"></textarea> 
+								</div>
+
+							</div>
+
+							<div class="text-center">
+							<button class="submit_" type="button">Submit</button>
+							</div>
+						</form>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		
+	</div>	
+
+</body>
+</html>
